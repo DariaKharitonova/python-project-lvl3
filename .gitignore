@@ -1,0 +1,9 @@
+/hexlet_code.egg-info/
+/.venv/
+/__pycache__
+/.idea
+/dist
+*.xml
+__pycache__
+.coverage
+coverage.xml
