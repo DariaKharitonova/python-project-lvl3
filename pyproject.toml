@@ -12,6 +12,7 @@ packages = [
 python = "^3.8"
 requests = "^2.25.1"
 beautifulsoup4 = "^4.9.3"
+requests-mock = "^1.8.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"

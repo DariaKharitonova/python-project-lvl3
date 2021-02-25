@@ -5,7 +5,10 @@ build: check
 	@poetry build
 
 test:
-	@poetry run pytest --cov-report term --cov-report xml --cov=page_loader page_loader tests
+	poetry run pytest -v
 
 lint:
-	@poetry run flake8 page_loader tests
+	poetry run flake8 page_loader tests
+
+coverage:
+	poetry run pytest --cov=page_loader --cov-report xml
